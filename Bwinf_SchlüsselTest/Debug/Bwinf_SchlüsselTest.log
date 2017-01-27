@@ -1,0 +1,15 @@
+﻿Der Buildvorgang wurde am 03.11.2015 15:52:26 gestartet.
+     1>Projekt "c:\Users\Katrin\documents\visual studio 2013\Projects\Bwinf_SchlüsselTest\Bwinf_SchlüsselTest\Bwinf_SchlüsselTest.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Bwinf_SchlüsselTest.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\katrin\documents\visual studio 2013\projects\bwinf_schlüsseltest\bwinf_schlüsseltest\main.cpp(59): warning C4244: 'Argument': Konvertierung von 'time_t' in 'unsigned int', möglicher Datenverlust
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\katrin\documents\visual studio 2013\Projects\Bwinf_SchlüsselTest\Debug\Bwinf_Schlüssel.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\katrin\documents\visual studio 2013\Projects\Bwinf_SchlüsselTest\Debug\Bwinf_Schlüssel.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\katrin\documents\visual studio 2013\Projects\Bwinf_SchlüsselTest\Debug\Bwinf_Schlüssel.lib" /MACHINE:X86 Debug\main.obj
+         Bwinf_SchlüsselTest.vcxproj -> c:\users\katrin\documents\visual studio 2013\Projects\Bwinf_SchlüsselTest\Debug\Bwinf_Schlüssel.exe
+     1>Die Erstellung des Projekts "c:\Users\Katrin\documents\visual studio 2013\Projects\Bwinf_SchlüsselTest\Bwinf_SchlüsselTest\Bwinf_SchlüsselTest.vcxproj" ist abgeschlossen, Build Ziel(e).
+
+Build erfolgreich.
+
+Verstrichene Zeit 00:00:04.83
